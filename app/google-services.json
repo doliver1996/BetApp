@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "516021411395",
+    "firebase_url": "https://betapp-555a5.firebaseio.com",
+    "project_id": "betapp-555a5",
+    "storage_bucket": "betapp-555a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516021411395:android:f5e3e4be206a097f",
+        "android_client_info": {
+          "package_name": "com.luis_avila.betapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516021411395-dcdot4u4lqpnd8gce0eqjagndp9ajrj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luis_avila.betapp",
+            "certificate_hash": "e12fbc6742c42e0297930d898ad271946c7c37e7"
+          }
+        },
+        {
+          "client_id": "516021411395-n4reuq3f4b0dh6bul3if7gmfbfmubqfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0hbYDQRn8PXSF3uPOhS1b7U09M2FF8P8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516021411395-n4reuq3f4b0dh6bul3if7gmfbfmubqfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

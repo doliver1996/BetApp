@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="4dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fulano de Tales"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/nombre"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textColorHint="#e4e4e4"
+        android:inputType="text"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:padding="5dp"
+        android:layout_marginLeft="4dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fulano@example.com"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/correo"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textColorHint="#e4e4e4"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:padding="5dp"
+        android:layout_marginLeft="4dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/password"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textColorHint="#e4e4e4"
+        android:hint="Mínimo 6 carácteres"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:padding="5dp"
+        android:layout_marginLeft="4dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/password1"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textColorHint="#e4e4e4"
+        android:hint="Repita la contraseña"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registrarse"
+        android:id="@+id/registro"
+        android:background="@drawable/round"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
